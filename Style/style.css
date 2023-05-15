@@ -52,7 +52,7 @@ body{
     display: flex;
     margin-top: 120px;
     margin-left: 5%;
-border-radius: 0 0 30px 30px;
+border-radius: 0 0 25px 25px;
    justify-content: center;
    align-items: center;
 }
@@ -70,6 +70,7 @@ top: 60px;
     align-items: center;
 gap: 70px;
 }
+
 .prop{
     height:700px ;
     font-size: 20px;
@@ -89,7 +90,7 @@ top: 60px;
     display: flex;
     flex-direction: column;
     margin-left: 570px;
-    color:blue;
+    color:#549CD5;
     margin-bottom: 20px;
 }
 .bur{
@@ -138,6 +139,9 @@ top: 60px;
 }
 .svlg {
   width: 100% !important;
+} 
+.lien{
+  text-decoration: none;
 }
 
 .CoteGauche {
@@ -195,7 +199,14 @@ top: 60px;
   height: fit-content;
   /* background-color: rgba(255, 0, 0, 0.241); */
 }
-
+.olo{
+  position: relative;
+  left: 170px;
+  bottom: 25px;
+}
+.bi{
+  color: white;
+}
 .DivTelMail {
   display: flex;
   flex-direction: column;
